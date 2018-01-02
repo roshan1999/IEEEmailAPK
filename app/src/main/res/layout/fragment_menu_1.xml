@@ -13,16 +13,16 @@
         android:layout_marginStart="46dp"
         android:layout_marginTop="44dp"
         android:text="Send To:"
-        android:textSize="22sp" />
+        android:textSize="18sp" />
 
     <EditText
         android:id="@+id/editText6"
         android:layout_width="330dp"
-        android:layout_height="80dp"
+        android:layout_height="wrap_content"
         android:layout_alignLeft="@+id/textView8"
         android:layout_alignStart="@+id/textView8"
         android:layout_below="@+id/textView8"
-        android:layout_marginTop="21dp"
+        android:layout_marginTop="18dp"
         android:ems="10"
         android:inputType="textEmailAddress" />
 
@@ -30,21 +30,21 @@
         android:id="@+id/textView9"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/textView8"
-        android:layout_alignStart="@+id/textView8"
+        android:layout_alignLeft="@+id/editText6"
+        android:layout_alignStart="@+id/editText6"
         android:layout_below="@+id/editText6"
-        android:layout_marginTop="40dp"
+        android:layout_marginTop="25dp"
         android:text="Subject: "
-        android:textSize="22sp" />
+        android:textSize="18sp" />
 
     <EditText
         android:id="@+id/editText7"
         android:layout_width="330dp"
-        android:layout_height="80dp"
-        android:layout_alignLeft="@+id/editText6"
-        android:layout_alignStart="@+id/editText6"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView9"
+        android:layout_alignStart="@+id/textView9"
         android:layout_below="@+id/textView9"
-        android:layout_marginTop="33dp"
+        android:layout_marginTop="20dp"
         android:ems="10"
         android:inputType="textPersonName" />
 
@@ -52,17 +52,17 @@
         android:id="@+id/textView10"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/textView9"
-        android:layout_alignStart="@+id/textView9"
-        android:layout_below="@+id/editText7"
-        android:layout_marginTop="50dp"
+        android:layout_alignLeft="@+id/editText7"
+        android:layout_alignStart="@+id/editText7"
+        android:layout_below="@+id/textView9"
+        android:layout_marginTop="98dp"
         android:text="Mail:"
-        android:textSize="22sp" />
+        android:textSize="18sp" />
 
     <EditText
         android:id="@+id/editText13"
         android:layout_width="330dp"
-        android:layout_height="80dp"
+        android:layout_height="wrap_content"
         android:layout_alignLeft="@+id/textView10"
         android:layout_alignStart="@+id/textView10"
         android:layout_below="@+id/textView10"
